@@ -11,13 +11,15 @@
     <div class="main-container">
       <div class="main-logo">facebook</div>
       <input
-        type="e-mail"
+        type="text"
+        pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+        pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
         class="input-window"
         placeholder="Mobile number or email address"
       />
       <input type="password" class="input-window" placeholder="Password" />
       <button class="button login">Log In</button>
-      <div class="pass-remember-container"><a>Forgotten password?</a></div>
+      <a href="#" class="pass-remember-container">Forgotten password?</a>
       <div class="lines-container">
         <div class="line"></div>
         <span>or</span>
